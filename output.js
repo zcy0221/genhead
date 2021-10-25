@@ -1,13 +1,10 @@
 var path = require("path");
 var fs = require("fs");
-function output(cPath, head, files) {
-    //console.log(head);
+function output(cPath, head) {
     mkdirsSync(cPath);
-    for (i = 0; i < head.length && i < files.length; i++) {
-        m=`${cPath}/${files[i]}.h`.toString();;
-        n= head[i].toString();
-        fs.writeFileSync(m, n);
-    }
+    m = `${cPath}/mm32.h`;
+    n = head.toString();
+    fs.writeFileSync(m, n);
 }
 
 //判断路径，可递归创建目录

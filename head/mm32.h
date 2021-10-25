@@ -1,4 +1,196 @@
 //////////@brief CR_EN Register Defintion
+#define I2C_CR_EN_Pos                             (0)
+#define I2C_CR_EN                                 (0x1U << I2C_CR_EN_Pos)
+
+//////////@brief CR_START Register Defintion
+#define I2C_CR_START_Pos                          (1)
+#define I2C_CR_START                              (0x1U << I2C_CR_START_Pos)
+
+//////////@brief CR_STOP Register Defintion
+#define I2C_CR_STOP_Pos                           (2)
+#define I2C_CR_STOP                               (0x1U << I2C_CR_STOP_Pos)
+
+//////////@brief CR_INT Register Defintion
+#define I2C_CR_INT_Pos                            (3)
+#define I2C_CR_INT                                (0x1U << I2C_CR_INT_Pos)
+
+//////////@brief CR_AA Register Defintion
+#define I2C_CR_AA_Pos                             (4)
+#define I2C_CR_AA                                 (0x1U << I2C_CR_AA_Pos)
+
+//////////@brief CR_SRC Register Defintion
+#define I2C_CR_SRC_Pos                            (5)
+#define I2C_CR_SRC                                (0x3U << I2C_CR_SRC_Pos)
+
+//////////@brief DR_DATA Register Defintion
+#define I2C_DR_DATA_Pos                           (0)
+#define I2C_DR_DATA                               (0xffU << I2C_DR_DATA_Pos)
+
+//////////@brief SR_STA Register Defintion
+#define I2C_SR_STA_Pos                            (0)
+#define I2C_SR_STA                                (0xffU << I2C_SR_STA_Pos)
+
+//////////@brief ADDR_GC Register Defintion
+#define I2C_ADDR_GC_Pos                           (0)
+#define I2C_ADDR_GC                               (0x1U << I2C_ADDR_GC_Pos)
+
+//////////@brief ADDR_ADR0 Register Defintion
+#define I2C_ADDR_ADR0_Pos                         (1)
+#define I2C_ADDR_ADR0                             (0x7fU << I2C_ADDR_ADR0_Pos)
+
+//////////@brief ADDR_EN1 Register Defintion
+#define I2C_ADDR_EN1_Pos                          (8)
+#define I2C_ADDR_EN1                              (0x1U << I2C_ADDR_EN1_Pos)
+
+//////////@brief ADDR_ADR1 Register Defintion
+#define I2C_ADDR_ADR1_Pos                         (9)
+#define I2C_ADDR_ADR1                             (0x7fU << I2C_ADDR_ADR1_Pos)
+
+//////////@brief ADDR_EN2 Register Defintion
+#define I2C_ADDR_EN2_Pos                          (16)
+#define I2C_ADDR_EN2                              (0x1U << I2C_ADDR_EN2_Pos)
+
+//////////@brief ADDR_ADR2 Register Defintion
+#define I2C_ADDR_ADR2_Pos                         (17)
+#define I2C_ADDR_ADR2                             (0x7fU << I2C_ADDR_ADR2_Pos)
+
+//////////@brief ADDR_EN3 Register Defintion
+#define I2C_ADDR_EN3_Pos                          (24)
+#define I2C_ADDR_EN3                              (0x1U << I2C_ADDR_EN3_Pos)
+
+//////////@brief ADDR_ADR3 Register Defintion
+#define I2C_ADDR_ADR3_Pos                         (25)
+#define I2C_ADDR_ADR3                             (0x7fU << I2C_ADDR_ADR3_Pos)
+
+//////////@brief DTR_DIV Register Defintion
+#define I2C_DTR_DIV_Pos                           (0)
+#define I2C_DTR_DIV                               (0xffffU << I2C_DTR_DIV_Pos)
+
+//////////@brief DTR_SCLH Register Defintion
+#define I2C_DTR_SCLH_Pos                          (16)
+#define I2C_DTR_SCLH                              (0xfffU << I2C_DTR_SCLH_Pos)
+
+//////////@brief CR_EN Register Defintion
+#define SPI_CR_EN_Pos                             (0)
+#define SPI_CR_EN                                 (0x1U << SPI_CR_EN_Pos)
+
+//////////@brief CR_DMA Register Defintion
+#define SPI_CR_DMA_Pos                            (1)
+#define SPI_CR_DMA                                (0x1U << SPI_CR_DMA_Pos)
+
+//////////@brief CR_TXEN Register Defintion
+#define SPI_CR_TXEN_Pos                           (2)
+#define SPI_CR_TXEN                               (0x1U << SPI_CR_TXEN_Pos)
+
+//////////@brief CR_RXEN Register Defintion
+#define SPI_CR_RXEN_Pos                           (3)
+#define SPI_CR_RXEN                               (0x1U << SPI_CR_RXEN_Pos)
+
+//////////@brief DR_DATA Register Defintion
+#define SPI_DR_DATA_Pos                           (0)
+#define SPI_DR_DATA                               (0xffffU << SPI_DR_DATA_Pos)
+
+//////////@brief DR_CNT Register Defintion
+#define SPI_DR_CNT_Pos                            (16)
+#define SPI_DR_CNT                                (0xffU << SPI_DR_CNT_Pos)
+
+//////////@brief DR_ACC Register Defintion
+#define SPI_DR_ACC_Pos                            (31)
+#define SPI_DR_ACC                                (0x1U << SPI_DR_ACC_Pos)
+
+//////////@brief CFGR_MODE Register Defintion
+#define SPI_CFGR_MODE_Pos                         (0)
+#define SPI_CFGR_MODE                             (0x1U << SPI_CFGR_MODE_Pos)
+
+//////////@brief CFGR_CPSEL Register Defintion
+#define SPI_CFGR_CPSEL_Pos                        (1)
+#define SPI_CFGR_CPSEL                            (0x3U << SPI_CFGR_CPSEL_Pos)
+
+//////////@brief CFGR_LSB Register Defintion
+#define SPI_CFGR_LSB_Pos                          (3)
+#define SPI_CFGR_LSB                              (0x1U << SPI_CFGR_LSB_Pos)
+
+//////////@brief CFGR_NSS Register Defintion
+#define SPI_CFGR_NSS_Pos                          (4)
+#define SPI_CFGR_NSS                              (0x1U << SPI_CFGR_NSS_Pos)
+
+//////////@brief CFGR_NSSA Register Defintion
+#define SPI_CFGR_NSSA_Pos                         (5)
+#define SPI_CFGR_NSSA                             (0x7U << SPI_CFGR_NSSA_Pos)
+
+//////////@brief CFGR_FGAP Register Defintion
+#define SPI_CFGR_FGAP_Pos                         (8)
+#define SPI_CFGR_FGAP                             (0x7U << SPI_CFGR_FGAP_Pos)
+
+//////////@brief CFGR_WIDTH Register Defintion
+#define SPI_CFGR_WIDTH_Pos                        (11)
+#define SPI_CFGR_WIDTH                            (0xfU << SPI_CFGR_WIDTH_Pos)
+
+//////////@brief CFGR_CNT Register Defintion
+#define SPI_CFGR_CNT_Pos                          (15)
+#define SPI_CFGR_CNT                              (0x1ffU << SPI_CFGR_CNT_Pos)
+
+//////////@brief IER_TXE Register Defintion
+#define SPI_IER_TXE_Pos                           (0)
+#define SPI_IER_TXE                               (0x1U << SPI_IER_TXE_Pos)
+
+//////////@brief IER_TXC Register Defintion
+#define SPI_IER_TXC_Pos                           (1)
+#define SPI_IER_TXC                               (0x1U << SPI_IER_TXC_Pos)
+
+//////////@brief IER_RXNE Register Defintion
+#define SPI_IER_RXNE_Pos                          (2)
+#define SPI_IER_RXNE                              (0x1U << SPI_IER_RXNE_Pos)
+
+//////////@brief IER_OVER Register Defintion
+#define SPI_IER_OVER_Pos                          (3)
+#define SPI_IER_OVER                              (0x1U << SPI_IER_OVER_Pos)
+
+//////////@brief IER_TUDR Register Defintion
+#define SPI_IER_TUDR_Pos                          (4)
+#define SPI_IER_TUDR                              (0x1U << SPI_IER_TUDR_Pos)
+
+//////////@brief IER_RMAH Register Defintion
+#define SPI_IER_RMAH_Pos                          (5)
+#define SPI_IER_RMAH                              (0x1U << SPI_IER_RMAH_Pos)
+
+//////////@brief ISR_TXE Register Defintion
+#define SPI_ISR_TXE_Pos                           (0)
+#define SPI_ISR_TXE                               (0x1U << SPI_ISR_TXE_Pos)
+
+//////////@brief ISR_TXC Register Defintion
+#define SPI_ISR_TXC_Pos                           (1)
+#define SPI_ISR_TXC                               (0x1U << SPI_ISR_TXC_Pos)
+
+//////////@brief ISR_RXNE Register Defintion
+#define SPI_ISR_RXNE_Pos                          (2)
+#define SPI_ISR_RXNE                              (0x1U << SPI_ISR_RXNE_Pos)
+
+//////////@brief ISR_OVER Register Defintion
+#define SPI_ISR_OVER_Pos                          (3)
+#define SPI_ISR_OVER                              (0x1U << SPI_ISR_OVER_Pos)
+
+//////////@brief ISR_TUDR Register Defintion
+#define SPI_ISR_TUDR_Pos                          (4)
+#define SPI_ISR_TUDR                              (0x1U << SPI_ISR_TUDR_Pos)
+
+//////////@brief ISR_RMAH Register Defintion
+#define SPI_ISR_RMAH_Pos                          (5)
+#define SPI_ISR_RMAH                              (0x1U << SPI_ISR_RMAH_Pos)
+
+//////////@brief ISR_STXE Register Defintion
+#define SPI_ISR_STXE_Pos                          (6)
+#define SPI_ISR_STXE                              (0x1U << SPI_ISR_STXE_Pos)
+
+//////////@brief ISR_SRXNE Register Defintion
+#define SPI_ISR_SRXNE_Pos                         (7)
+#define SPI_ISR_SRXNE                             (0x1U << SPI_ISR_SRXNE_Pos)
+
+//////////@brief DTR_DIV Register Defintion
+#define SPI_DTR_DIV_Pos                           (0)
+#define SPI_DTR_DIV                               (0xffffU << SPI_DTR_DIV_Pos)
+
+//////////@brief CR_EN Register Defintion
 #define UART_CR_EN_Pos                            (0)
 #define UART_CR_EN                                (0x1U << UART_CR_EN_Pos)
 
