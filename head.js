@@ -7,7 +7,7 @@ function data(dir) {
     var nFile1=[];
     var headInfo = [];//存储头文件信息
     let head = ``;//头文件信息存储
-    let maskTra=["0x00","0x01","0x03","0x07","0x0f","0x1f","0x3f","0x7f","0xff","0x01ff","0x03ff","0x07ff","0x0fff","0x1fff","0x3fff","0x7fff","0xffff"];
+    //let maskTra=["0x00","0x01","0x03","0x07","0x0f","0x1f","0x3f","0x7f","0xff","0x01ff","0x03ff","0x07ff","0x0fff","0x1fff","0x3fff","0x7fff","0xffff"];
 
     dir.forEach(function (fileName) {
         var fDir = path.dirname(fileName);
@@ -44,20 +44,19 @@ function data(dir) {
             RegisterName = rName[i];
             for (m = 0; m < jInfo[i].length; m++) {
                 bitMask10 = jInfo[i][m].bits;
-                bitMask16=maskTra[bitMask10];
-                console.log(bitMask10);
-                console.log(bitMask16);
+                bitTran=Math.pow(2,bitMask10)-1;
+                bitMask16=bitTran.toString(16);
                 bitName = jInfo[i][m].name;
                 sum += bitMask10;
-                bitPosition = sum - bitMask10;
+                bitPosition = sum - bitMask10+1;
                 if (jInfo[i][m].name != "RES") {
                     head +=`//////////@brief ${RegisterName}_${bitName} Register Defintion\n`;
                     var head1 = `#define ${IPName}_${RegisterName}_${bitName}_Pos`;
                         head1 = head1.padEnd(50," ");//字符串不够指定长度，会在尾部补全
-                    var head2 =`(${bitPosition}U)\n`;
+                    var head2 =`(${bitPosition})\n`;
                     var head3 = `#define ${IPName}_${RegisterName}_${bitName}`;
                         head3 = head3.padEnd(50," ");
-                    var head4 =`(${bitMask16}U << ${IPName}_${RegisterName}_${bitName}_Pos)\n\n`;
+                    var head4 =`(0x${bitMask16}U << ${IPName}_${RegisterName}_${bitName}_Pos)\n\n`;
                     head +=head1+head2+head3+head4;
                 }
             }
