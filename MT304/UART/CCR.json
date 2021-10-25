@@ -1,0 +1,22 @@
+{
+    "reg": [
+        {"bits": 1, "name": "PEN",   "attr": "rw", "type": 7},
+        {"bits": 1, "name": "PSEL",  "attr": "rw", "type": 7},
+        {"bits": 1, "name": "SPB",   "attr": "rw", "type": 7},
+        {"bits": 1, "name": "BRK",   "attr": "rw", "type": 7},
+        {"bits": 2, "name": "CHAR",  "attr": "rw", "type": 7},
+        {"bits":10, "name": "RES.",  "attr": "",   "type": 0},
+        {"bits":16, "name": "RES.",  "attr": "",   "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "reg": [
+        {"bits": 1, "name": "SPIEN",    "attr": "rw", "type": 7},
+        {"bits": 1, "name": "IEN",      "attr": "rw", "type": 7},
+        {"bits": 1, "name": "MODE",     "attr": "rw", "type": 7},
+        {"bits": 1, "name": "TXEN",     "attr": "rw", "type": 7},
+        {"bits": 1, "name": "RXEN",     "attr": "rw", "type": 7},
+        {"bits": 2, "name": "RXTLF",    "attr": "rw", "type": 7},
+        {"bits": 2, "name": "TXTLF",    "attr": "rw", "type": 7},
+        {"bits": 1, "name": "DMAEN",    "attr": "rw", "type": 7},
+        {"bits": 1, "name": "NSS",      "attr": "rw", "type": 7},
+        {"bits": 1, "name": "DWSEL",    "attr": "rw", "type": 7},
+        {"bits": 4, "name": "RES.", "type": 0},
+        {"bits": 16, "name": "RES.", "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

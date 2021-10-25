@@ -1,0 +1,31 @@
+{
+    "reg": [
+        {"bits": 1, "name": "CC1EN",    "attr": "rw", "type": 7},
+        {"bits": 1, "name": "CC1P",     "attr": "rw", "type": 7},
+        {"bits": 1, "name": "CC1NEN",   "attr": "rw", "type": 7},
+        {"bits": 1, "name": "CC1NP",    "attr": "rw", "type": 7},
+        {"bits": 1, "name": "CC2EN",    "attr": "rw", "type": 7},
+        {"bits": 1, "name": "CC2P",     "attr": "rw", "type": 7},
+        {"bits": 1, "name": "CC2NEN",   "attr": "rw", "type": 7},
+        {"bits": 1, "name": "CC2NP",    "attr": "rw", "type": 7},
+        {"bits": 1, "name": "CC3EN",    "attr": "rw", "type": 7},
+        {"bits": 1, "name": "CC3P",     "attr": "rw", "type": 7},
+        {"bits": 1, "name": "CC3NEN",   "attr": "rw", "type": 7},
+        {"bits": 1, "name": "CC3NP",    "attr": "rw", "type": 7},
+        {"bits": 1, "name": "CC4EN",    "attr": "rw", "type": 7},
+        {"bits": 1, "name": "CC4P",     "attr": "rw", "type": 7},
+        {"bits": 2, "name": "RES.",                   "type": 0},
+        {"bits": 16, "name": "RES.",                  "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

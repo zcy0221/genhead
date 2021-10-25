@@ -1,0 +1,29 @@
+{
+    "reg": [
+        {"bits": 1, "name": "EN",       "attr": "rw",   "type": 6},
+        {"bits": 1, "name": "TCIE",     "attr": "rw",   "type": 6},
+        {"bits": 1, "name": "HTIE",     "attr": "rw",   "type": 6},
+        {"bits": 1, "name": "TEIE",     "attr": "rw",   "type": 6},
+        {"bits": 1, "name": "DIR",      "attr": "rw",   "type": 6},
+        {"bits": 1, "name": "CIRC",     "attr": "rw",   "type": 6},
+        {"bits": 1, "name": "PINC",     "attr": "rw",   "type": 6},
+        {"bits": 1, "name": "MINC",     "attr": "rw",   "type": 6},
+        {"bits": 2, "name": "PSIZE",    "attr": "rw",   "type": 6},
+        {"bits": 2, "name": "MSIZE",    "attr": "rw",   "type": 6},
+        {"bits": 2, "name": "PL",       "attr": "rw",   "type": 6},
+        {"bits": 1, "name": "M2M",      "attr": "rw",   "type": 6},
+        {"bits": 1, "name": "RES.",     "attr": "",     "type": 0},
+        {"bits":16, "name": "RES.",     "attr": "",     "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

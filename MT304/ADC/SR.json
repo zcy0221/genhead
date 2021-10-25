@@ -1,0 +1,24 @@
+{
+    "reg": [
+        {"bits": 1, "name": "ADIF",   "attr": "w1c",    "type": 2},
+        {"bits": 1, "name": "ADWIF",  "attr": "w1c",    "type": 2},
+        {"bits": 1, "name": "BUSY",   "attr": "r",      "type": 5},
+        {"bits": 1, "name": "RES.",                     "type": 0},
+        {"bits": 4, "name": "CH",     "attr": "r",      "type": 5},
+        {"bits": 9, "name": "VALID",  "attr": "r",      "type": 5},
+        {"bits": 3, "name": "RES.",                     "type": 0},
+        {"bits": 9, "name": "OVERRUN","attr": "r",      "type": 5},
+        {"bits": 3, "name": "RES.",                     "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

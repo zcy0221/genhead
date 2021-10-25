@@ -1,0 +1,25 @@
+{
+    "reg": [
+        {"bits": 1,  "name": "RI",   "attr": "r", "type": 5},
+        {"bits": 1,  "name": "TI",   "attr": "r", "type": 5},
+        {"bits": 1,  "name": "EI",   "attr": "r", "type": 5},
+        {"bits": 1,  "name": "DOI",  "attr": "r", "type": 5},
+        {"bits": 1,  "name": "RES.",              "type": 0},
+        {"bits": 1,  "name": "EPI",  "attr": "r", "type": 5},
+        {"bits": 1,  "name": "ALI",  "attr": "r", "type": 5},
+        {"bits": 1,  "name": "BEI",  "attr": "r", "type": 5},
+        {"bits": 8,  "name": "RES.",              "type": 0},
+        {"bits": 16, "name": "RES.",              "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

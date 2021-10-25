@@ -1,0 +1,24 @@
+{
+    "reg": [
+        {"bits": 1, "name": "TX",          "attr": "w", "type": 6},
+        {"bits": 1, "name": "RX",          "attr": "w", "type": 6},
+        {"bits": 1, "name": "UNDERRUN",    "attr": "w", "type": 6},
+        {"bits": 1, "name": "RXOERR",      "attr": "w", "type": 6},
+        {"bits": 1, "name": "RXMATCH",     "attr": "w", "type": 6},
+        {"bits": 1, "name": "RXFULL",      "attr": "w", "type": 6},
+        {"bits": 1, "name": "TXEPT",       "attr": "w", "type": 6},
+        {"bits": 9, "name": "RES.", "type": 0},
+        {"bits": 16, "name": "RES.", "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

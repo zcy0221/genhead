@@ -1,0 +1,18 @@
+{
+    "reg": [
+        {"bits": 1,  "name": "PVU",  "attr": "r", "type": 5},
+        {"bits": 1,  "name": "RVU",  "attr": "r", "type": 5},
+        {"bits": 30, "name": "RES.",              "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

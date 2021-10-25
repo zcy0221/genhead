@@ -1,0 +1,23 @@
+{
+    "reg": [
+        {"bits": 1, "name": "BUSY",     "attr": "r",    "type": 5},
+        {"bits": 1, "name": "RES.",     "attr": "",     "type": 0},
+        {"bits": 1, "name": "PGERR",    "attr": "w1c","type": 2},
+        {"bits": 1, "name": "RES.",     "attr": "",     "type": 0},
+        {"bits": 1, "name": "WRPRTERR", "attr": "w1c","type": 2},
+        {"bits": 1, "name": "EOP",      "attr": "w1c","type": 2},
+        {"bits":10, "name": "RES.",     "attr": "",     "type": 0},
+        {"bits":16, "name": "RES.",     "attr": "",     "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

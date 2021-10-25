@@ -1,0 +1,32 @@
+{
+    "reg": [
+        {"bits": 2, "name": "CC1S",     "attr": "rw", "type": 7},
+        {"bits": 2, "name": "IC1PSC",   "attr": "rw", "type": 7},
+        {"bits": 4, "name": "IC1F",     "attr": "rw", "type": 7},
+        {"bits": 2, "name": "CC2S",     "attr": "rw", "type": 7},
+        {"bits": 2, "name": "IC2PSC",   "attr": "rw", "type": 7},
+        {"bits": 4, "name": "IC2F",     "attr": "rw", "type": 7},
+        
+        {"bits": 2, "name": "CC1S"  , "type": 2},
+        {"bits": 1, "name": "OC1FE" , "type": 2},
+        {"bits": 1, "name": "OC1PE" , "type": 2},
+        {"bits": 3, "name": "OC1M"  , "type": 2},
+        {"bits": 1, "name": "OC1CE" , "type": 2},
+        {"bits": 2, "name": "CC2S"  , "type": 2},
+        {"bits": 1, "name": "OC2FE" , "type": 2},
+        {"bits": 1, "name": "OC2PE" , "type": 2},
+        {"bits": 3, "name": "OC2M"  , "type": 2},
+        {"bits": 1, "name": "OC2CE" , "type": 2}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

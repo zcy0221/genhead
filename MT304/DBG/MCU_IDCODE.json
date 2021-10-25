@@ -1,0 +1,17 @@
+{
+    "reg": [
+        {"bits": 16, "name": "DEV_ID", "attr": "r", "type": 5},
+        {"bits": 16, "name": "DEV_ID", "attr": "r", "type": 5}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

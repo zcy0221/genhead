@@ -1,0 +1,23 @@
+{
+    "reg": [
+        {"bits": 1,  "name": "SECF",  "attr": "w0c", "type": 4},
+        {"bits": 1,  "name": "ALRF",  "attr": "w0c", "type": 4},
+        {"bits": 1,  "name": "OWF",   "attr": "w0c", "type": 4},
+        {"bits": 1,  "name": "RSF",   "attr": "w0c", "type": 4},
+        {"bits": 1,  "name": "CNF",   "attr": "rw",    "type": 7},
+        {"bits": 1,  "name": "RTOFF", "attr": "r",     "type": 5},
+        {"bits": 10, "name": "RES.",                   "type": 0},
+        {"bits": 16, "name": "RES.",                   "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

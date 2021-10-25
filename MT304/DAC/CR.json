@@ -1,0 +1,31 @@
+{
+    "reg": [
+        {"bits": 1, "name": "EN1",      "attr": "rw",   "type": 7},
+        {"bits": 1, "name": "BOFF1",    "attr": "rw",   "type": 7},
+        {"bits": 1, "name": "TEN1",     "attr": "rw",   "type": 7},
+        {"bits": 3, "name": "TSEL1",    "attr": "rw",   "type": 7},
+        {"bits": 2, "name": "WAVE1",    "attr": "rw",   "type": 7},
+        {"bits": 4, "name": "MAMP1",    "attr": "rw",   "type": 7},
+        {"bits": 1, "name": "DMAEN1",   "attr": "rw",   "type": 7},
+        {"bits": 3, "name": "RES.",     "attr": "",     "type": 0},
+        {"bits": 1, "name": "EN2",      "attr": "rw",   "type": 7},
+        {"bits": 1, "name": "BOFF2",    "attr": "rw",   "type": 7},
+        {"bits": 1, "name": "TEN2",     "attr": "rw",   "type": 7},
+        {"bits": 3, "name": "TSEL2",    "attr": "rw",   "type": 7},
+        {"bits": 2, "name": "WAVE2",    "attr": "rw",   "type": 7},
+        {"bits": 4, "name": "MAMP2",    "attr": "rw",   "type": 7},
+        {"bits": 1, "name": "DMAEN2",   "attr": "rw",   "type": 7},
+        {"bits": 3, "name": "RES.",     "attr": "",     "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

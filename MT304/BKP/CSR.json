@@ -1,0 +1,23 @@
+{
+    "reg": [
+        {"bits": 1,  "name": "CTE",  "attr": "w",  "type": 6},
+        {"bits": 1,  "name": "CTI",  "attr": "w",  "type": 6},
+        {"bits": 1,  "name": "TPIE", "attr": "rw", "type": 7},
+        {"bits": 5,  "name": "RES.",               "type": 0},
+        {"bits": 1,  "name": "TEF",  "attr": "r",  "type": 5},
+        {"bits": 1,  "name": "TIF",  "attr": "r",  "type": 5},
+        {"bits": 6,  "name": "RES.",               "type": 0},
+        {"bits": 16, "name": "RES.",               "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "reg": [
+        {"bits": 2, "name": "MODE8",    "attr": "rw", "type": 7},
+        {"bits": 2, "name": "CNF8",     "attr": "rw", "type": 7},
+        {"bits": 2, "name": "MODE9",    "attr": "rw", "type": 7},
+        {"bits": 2, "name": "CNF9",     "attr": "rw", "type": 7},
+        {"bits": 2, "name": "MODE10",   "attr": "rw", "type": 7},
+        {"bits": 2, "name": "CNF10",    "attr": "rw", "type": 7},
+        {"bits": 2, "name": "MODE11",   "attr": "rw", "type": 7},
+        {"bits": 2, "name": "CNF11",    "attr": "rw", "type": 7},
+        {"bits": 2, "name": "MODE12",   "attr": "rw", "type": 7},
+        {"bits": 2, "name": "CNF12",    "attr": "rw", "type": 7},
+        {"bits": 2, "name": "MODE13",   "attr": "rw", "type": 7},
+        {"bits": 2, "name": "CNF13",    "attr": "rw", "type": 7},
+        {"bits": 2, "name": "MODE14",   "attr": "rw", "type": 7},
+        {"bits": 2, "name": "CNF14",    "attr": "rw", "type": 7},
+        {"bits": 2, "name": "MODE15",   "attr": "rw", "type": 7},
+        {"bits": 2, "name": "CNF15",    "attr": "rw", "type": 7}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

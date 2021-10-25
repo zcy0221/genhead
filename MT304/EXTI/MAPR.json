@@ -1,0 +1,29 @@
+{
+    "reg": [
+        {"bits": 1, "name": "SPI1",  "attr": "rw", "type": 7},
+        {"bits": 1, "name": "I2C1",  "attr": "rw", "type": 7},
+        {"bits": 1, "name": "UART1", "attr": "rw", "type": 7},
+        {"bits": 1, "name": "RES.",                "type": 0},
+        {"bits": 2, "name": "UART3", "attr": "rw", "type": 7},
+        {"bits": 2, "name": "TIM1",  "attr": "rw", "type": 7},
+        {"bits": 2, "name": "TIM2",  "attr": "rw", "type": 7},
+        {"bits": 2, "name": "TIM3",  "attr": "rw", "type": 7},
+        {"bits": 1, "name": "RES.",                "type": 0},
+        {"bits": 2, "name": "CAN",   "attr": "rw", "type": 7},
+        {"bits": 1, "name": "PD01",  "attr": "rw", "type": 7},
+        {"bits": 8, "name": "RES.",  "attr": "rw", "type": 7},
+        {"bits": 3, "name": "SWJ",   "attr": "rw", "type": 7},
+        {"bits": 5, "name": "RES.",  "attr": "rw", "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "reg": [
+        {"bits": 1,  "name": "HALT0", "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "HALT1", "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "HALT2", "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "HALT3", "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "HALT4", "attr": "rw", "type": 7},
+        {"bits": 13, "name": "RES.",                "type": 0},
+        {"bits": 16, "name": "RES.",                "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

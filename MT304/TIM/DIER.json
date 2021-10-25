@@ -1,0 +1,32 @@
+{
+    "reg": [
+        {"bits": 1, "name": "UI", "attr": "rw", "type": 7},
+        {"bits": 1, "name": "CC1I", "attr": "rw", "type": 7},
+        {"bits": 1, "name": "CC2I", "attr": "rw", "type": 7},
+        {"bits": 1, "name": "CC3I", "attr": "rw", "type": 7},
+        {"bits": 1, "name": "CC4I", "attr": "rw", "type": 7},
+        {"bits": 1, "name": "COMI", "attr": "rw", "type": 7},
+        {"bits": 1, "name": "TI", "attr": "rw", "type": 7},
+        {"bits": 1, "name": "BI", "attr": "rw", "type": 7},
+        {"bits": 1, "name": "UD", "attr": "rw", "type": 7},
+        {"bits": 1, "name": "CC1D", "attr": "rw", "type": 7},
+        {"bits": 1, "name": "CC2D", "attr": "rw", "type": 7},
+        {"bits": 1, "name": "CC3D", "attr": "rw", "type": 7},
+        {"bits": 1, "name": "CC4D", "attr": "rw", "type": 7},
+        {"bits": 1, "name": "COMD", "attr": "rw", "type": 7},
+        {"bits": 1, "name": "TD", "attr": "rw", "type": 7},
+        {"bits": 1, "name": "RES.", "type": 0},
+        {"bits": 16, "name": "RES.", "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

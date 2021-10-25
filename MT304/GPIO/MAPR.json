@@ -1,0 +1,29 @@
+{
+    "reg": [
+        {"bits": 1, "name": "SPI1_REMAP",   "attr": "rw",   "type": 7},
+        {"bits": 1, "name": "I2C1_REMAP",   "attr": "rw",   "type": 7},
+        {"bits": 1, "name": "UART1_REMAP",  "attr": "rw",   "type": 7},
+        {"bits": 1, "name": "RES.",         "attr": "",     "type": 0},
+        {"bits": 2, "name": "UART3_REMAP",  "attr": "rw",   "type": 7},
+        {"bits": 2, "name": "TIM1_REMAP",   "attr": "rw",   "type": 7},
+        {"bits": 2, "name": "TIM2_REMAP",   "attr": "rw",   "type": 7},
+        {"bits": 2, "name": "TIM3_REMAP",   "attr": "rw",   "type": 7},
+        {"bits": 1, "name": "RES.",         "attr": "",     "type": 0},
+        {"bits": 2, "name": "CAN_REMAP",    "attr": "rw",   "type": 7},
+        {"bits": 1, "name": "PD01_REMAP",   "attr": "rw",   "type": 7},
+        {"bits": 8, "name": "RES.",         "attr": "",     "type": 0},
+        {"bits": 3, "name": "SWJ_CFG",      "attr": "w",    "type": 6},
+        {"bits": 5, "name": "RES.",         "attr": "",     "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

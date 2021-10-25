@@ -1,0 +1,35 @@
+{
+    "reg": [
+        {"bits": 1,  "name": "IMR0",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "IMR1",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "IMR2",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "IMR3",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "IMR4",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "IMR5",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "IMR6",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "IMR7",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "IMR8",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "IMR9",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "IMR10", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "IMR11", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "IMR12", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "IMR13", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "IMR14", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "IMR15", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "IMR16", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "IMR17", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "IMR18", "attr": "rw",  "type": 7},
+        {"bits": 13, "name": "RES.",                 "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

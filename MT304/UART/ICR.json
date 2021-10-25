@@ -1,0 +1,24 @@
+{
+    "reg": [
+        {"bits": 1, "name": "TXICLR",    "attr": "w", "type": 6},
+        {"bits": 1, "name": "RXICLR",    "attr": "w", "type": 6},
+        {"bits": 1, "name": "RES.",      "attr": "",  "type": 0},
+        {"bits": 1, "name": "RXOERRCLR", "attr": "w", "type": 6},
+        {"bits": 1, "name": "RXPERRCLR", "attr": "w", "type": 6},
+        {"bits": 1, "name": "RXFERRCLR", "attr": "w", "type": 6},
+        {"bits": 1, "name": "RXBRKCLR",  "attr": "w", "type": 6},
+        {"bits": 9, "name": "RES.",      "attr": "",  "type": 0},
+        {"bits":16, "name": "RES.",      "attr": "",  "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

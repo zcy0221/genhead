@@ -1,0 +1,35 @@
+{
+    "reg": [
+        {"bits": 1,  "name": "PR0",  "attr": "w1c", "type": 2},
+        {"bits": 1,  "name": "PR1",  "attr": "w1c", "type": 2},
+        {"bits": 1,  "name": "PR2",  "attr": "w1c", "type": 2},
+        {"bits": 1,  "name": "PR3",  "attr": "w1c", "type": 2},
+        {"bits": 1,  "name": "PR4",  "attr": "w1c", "type": 2},
+        {"bits": 1,  "name": "PR5",  "attr": "w1c", "type": 2},
+        {"bits": 1,  "name": "PR6",  "attr": "w1c", "type": 2},
+        {"bits": 1,  "name": "PR7",  "attr": "w1c", "type": 2},
+        {"bits": 1,  "name": "PR8",  "attr": "w1c", "type": 2},
+        {"bits": 1,  "name": "PR9",  "attr": "w1c", "type": 2},
+        {"bits": 1,  "name": "PR10", "attr": "w1c", "type": 2},
+        {"bits": 1,  "name": "PR11", "attr": "w1c", "type": 2},
+        {"bits": 1,  "name": "PR12", "attr": "w1c", "type": 2},
+        {"bits": 1,  "name": "PR13", "attr": "w1c", "type": 2},
+        {"bits": 1,  "name": "PR14", "attr": "w1c", "type": 2},
+        {"bits": 1,  "name": "PR15", "attr": "w1c", "type": 2},
+        {"bits": 1,  "name": "PR16", "attr": "w1c", "type": 2},
+        {"bits": 1,  "name": "PR17", "attr": "w1c", "type": 2},
+        {"bits": 1,  "name": "PR18", "attr": "w1c", "type": 2},
+        {"bits": 13, "name": "RES.",                  "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

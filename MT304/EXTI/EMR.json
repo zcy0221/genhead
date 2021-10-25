@@ -1,0 +1,35 @@
+{
+    "reg": [
+        {"bits": 1,  "name": "EMR0",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "EMR1",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "EMR2",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "EMR3",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "EMR4",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "EMR5",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "EMR6",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "EMR7",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "EMR8",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "EMR9",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "EMR10", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "EMR11", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "EMR12", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "EMR13", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "EMR14", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "EMR15", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "EMR16", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "EMR17", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "EMR18", "attr": "rw",  "type": 7},
+        {"bits": 13, "name": "RES.",                 "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

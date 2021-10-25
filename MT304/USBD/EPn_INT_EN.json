@@ -1,0 +1,25 @@
+{
+    "reg": [
+        {"bits": 1,  "name": "SETUPIE",    "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "ENDIE",      "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "INNACKIE",   "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "INACKIE",    "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "INSTALLIE",  "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "OUTNACKIE",  "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "OUTACKIE",   "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "OUTSTALLIE", "attr": "rw", "type": 7},
+        {"bits": 8,  "name": "RES.",                     "type": 0},
+        {"bits": 16, "name": "RES.",                     "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "reg": [
+        {"bits": 32, "name": "IVR2", "attr": "rw", "type": 7}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "reg": [
+        {"bits": 1, "name": "TXEPT", "attr": "r", "type": 5},
+        {"bits": 1, "name": "RXAVL", "attr": "r", "type": 5},
+        {"bits": 1, "name": "TXFULL", "attr": "r", "type": 5},
+        {"bits": 1, "name": "RXAVL_4BYTE", "attr": "r", "type": 5},
+        {"bits": 4, "name": "TXFADDR", "attr": "r", "type": 5},
+        {"bits": 4, "name": "RXFADDR", "attr": "r", "type": 5},
+        {"bits": 4, "name": "RES.", "type": 0},
+        {"bits": 16, "name": "RES.", "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

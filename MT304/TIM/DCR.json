@@ -1,0 +1,20 @@
+{
+    "reg": [
+        {"bits": 5, "name": "DBA", "attr": "rw", "type": 7},
+        {"bits": 3, "name": "RES.", "type": 0},
+        {"bits": 5, "name": "DBL", "attr": "rw", "type": 7},
+        {"bits": 3, "name": "RES.", "type": 0},
+        {"bits": 16, "name": "RES.",              "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

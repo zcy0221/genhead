@@ -1,0 +1,25 @@
+{
+    "reg": [
+        {"bits": 1,  "name": "MASTER",   "attr": "rw", "type": 7},
+        {"bits": 2,  "name": "SPEED",    "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "SLAVE10",  "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "MASTER10", "attr": "r",  "type": 5},
+        {"bits": 1,  "name": "REPEN",    "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "SLAVEDIS", "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "STOPINT",  "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "EMPINT",   "attr": "rw", "type": 7},
+        {"bits": 7,  "name": "RES.",                   "type": 0},
+        {"bits": 16, "name": "RES.",                   "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

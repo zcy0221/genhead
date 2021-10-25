@@ -1,0 +1,21 @@
+{
+    "reg": [
+        {"bits": 4,  "name": "DLC",  "attr": "rw", "type": 7},
+        {"bits": 2,  "name": "RES.",               "type": 0},
+        {"bits": 1,  "name": "RTR",  "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "FF",   "attr": "rw", "type": 7},
+        {"bits": 8,  "name": "RES.",               "type": 0},
+        {"bits": 16, "name": "RES.",               "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

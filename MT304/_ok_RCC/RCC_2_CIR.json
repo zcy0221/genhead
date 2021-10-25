@@ -1,0 +1,40 @@
+{
+    "reg": [
+        {"bits": 1, "name": "LSIF",  "attr": "r", "type": 5},
+        {"bits": 1, "name": "LSEF",  "attr": "r", "type": 5},
+        {"bits": 1, "name": "HSIF",  "attr": "r", "type": 5},
+        {"bits": 1, "name": "HSEF",  "attr": "r", "type": 5},
+        {"bits": 1, "name": "PLLF",  "attr": "r", "type": 5},
+        {"bits": 2, "name": "RES."              , "type": 0},
+        {"bits": 1, "name": "CSSF",  "attr": "r", "type": 5},
+
+        {"bits": 1, "name": "LSIIE", "attr": "r", "type": 5},
+        {"bits": 1, "name": "LSEIE", "attr": "r", "type": 5},
+        {"bits": 1, "name": "HSIIE", "attr": "r", "type": 5},
+        {"bits": 1, "name": "HSEIE", "attr": "r", "type": 5},
+        {"bits": 1, "name": "PLLIE", "attr": "r", "type": 5},
+        {"bits": 3, "name": "RES."              , "type": 0},
+		
+        {"bits": 1, "name": "LSIC",  "attr": "rw","type": 7},
+        {"bits": 1, "name": "LSEC",  "attr": "rw","type": 7},
+        {"bits": 1, "name": "HSIC",  "attr": "rw","type": 7},
+        {"bits": 1, "name": "HSEC",  "attr": "rw","type": 7},
+        {"bits": 1, "name": "PLLC",  "attr": "rw","type": 7},
+        {"bits": 2, "name": "RES."               ,"type": 0},
+		{"bits": 1, "name": "CSSC",  "attr": "rw","type": 7},
+        {"bits": 8, "name": "RES."               ,"type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}
+
+

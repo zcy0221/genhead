@@ -1,0 +1,29 @@
+{
+    "reg": [
+        {"bits": 1,  "name": "RX_UNDER", "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "RX_OVER",  "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "RX_FULL",  "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "TX_OVER",  "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "TX_EMPTY", "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "RX_REQ",   "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "TX_ABRT",  "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "RX_DONE",  "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "ACTIV",    "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "STOP",     "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "START",    "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "GC",       "attr": "rw", "type": 7},
+        {"bits": 4,  "name": "RES.",                   "type": 0},
+        {"bits": 16, "name": "RES.",                   "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

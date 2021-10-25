@@ -8,9 +8,14 @@ function data(dir) {
         let sum = 0;
         var fDir = path.dirname(fileName);//fileName路径名,fDir父目录名，nDir文件所在文件夹名
         var nDir = path.basename(fDir);
-        var temp1 = path.basename(fileName, '.json');
-        var temp2 = path.extname(temp1);
-        var regName = temp2.split('.')[1];//最后得到的regName是内寄存器名
+        var temp = path.basename(fileName, '.json');
+        if(temp.indexOf(".")==1){
+            var regName = temp.split('.')[1];//1.xxx
+        }else if(temp.indexOf("_")==3){
+            var regName = temp.split('_')[2];//xxx_1_XX
+        }else{
+            var regName = temp;//xxx.
+        }
         let data = JSON.parse(fs.readFileSync(fileName));
         reg = data.reg;
         IPName = nDir;
@@ -22,7 +27,7 @@ function data(dir) {
             bitName = reg[m].name;
             sum += bitMask10;
             bitPosition = sum - bitMask10;
-            if (reg[m].name != "RES") {
+            if (reg[m].name != "RES"&&reg[m].name != "RES.") {
                 head += `//////////@brief ${RegisterName}_${bitName} Register Defintion\n`;
                 var head1 = `#define ${IPName}_${RegisterName}_${bitName}_Pos`;
                 head1 = head1.padEnd(50, " ");//字符串不够指定长度，会在尾部补全

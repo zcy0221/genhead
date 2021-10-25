@@ -1,0 +1,35 @@
+{
+    "reg": [
+        {"bits": 1,  "name": "SWIER0",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "SWIER1",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "SWIER2",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "SWIER3",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "SWIER4",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "SWIER5",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "SWIER6",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "SWIER7",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "SWIER8",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "SWIER9",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "SWIER10", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "SWIER11", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "SWIER12", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "SWIER13", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "SWIER14", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "SWIER15", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "SWIER16", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "SWIER17", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "SWIER18", "attr": "rw",  "type": 7},
+        {"bits": 13, "name": "RES.",                   "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "reg": [
+        {"bits": 1,  "name": "CH0",  "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "CH1",  "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "CH2",  "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "CH3",  "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "CH4",  "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "CH5",  "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "CH6",  "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "CH7",  "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "CHTV", "attr": "rw", "type": 7},
+        {"bits": 7,  "name": "RES.",               "type": 0},
+        {"bits": 16, "name": "RES.",               "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

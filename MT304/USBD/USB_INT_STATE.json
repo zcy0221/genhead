@@ -1,0 +1,22 @@
+{
+    "reg": [
+        {"bits": 1,  "name": "RSTF",     "attr": "w1c", "type": 2},
+        {"bits": 1,  "name": "SUSPENDF", "attr": "w1c", "type": 2},
+        {"bits": 1,  "name": "RESUMF",   "attr": "w1c", "type": 2},
+        {"bits": 1,  "name": "SOFF",     "attr": "w1c", "type": 2},
+        {"bits": 1,  "name": "EPINTF",   "attr": "r",     "type": 5},
+        {"bits": 11, "name": "RES.",                      "type": 0},
+        {"bits": 16, "name": "RES.",                      "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

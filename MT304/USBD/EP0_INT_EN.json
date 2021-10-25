@@ -1,0 +1,25 @@
+{
+    "reg": [
+        {"bits": 1,  "name": "SETUP",    "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "END",      "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "INNACK",   "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "INACK",    "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "INSTALL",  "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "OUTNACK",  "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "OUTACK",   "attr": "rw", "type": 7},
+        {"bits": 1,  "name": "OUTSTALL", "attr": "rw", "type": 7},
+        {"bits": 8,  "name": "RES.",                   "type": 0},
+        {"bits": 16, "name": "RES.",                   "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

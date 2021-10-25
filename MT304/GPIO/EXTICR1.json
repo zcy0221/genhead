@@ -1,0 +1,20 @@
+{
+    "reg": [
+        {"bits": 4, "name": "EXTI4",    "attr": "rw", "type": 7},
+        {"bits": 4, "name": "EXTI5",    "attr": "rw", "type": 7},
+        {"bits": 4, "name": "EXTI6",    "attr": "rw", "type": 7},
+        {"bits": 4, "name": "EXTI7",    "attr": "rw", "type": 7},
+        {"bits":16, "name": "RES.",     "attr": "",   "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

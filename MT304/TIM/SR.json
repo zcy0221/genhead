@@ -1,0 +1,30 @@
+{
+    "reg": [
+        {"bits": 1, "name": "UI",   "attr": "w0c", "type": 4},
+        {"bits": 1, "name": "CC1I", "attr": "w0c", "type": 4},
+        {"bits": 1, "name": "CC2I", "attr": "w0c", "type": 4},
+        {"bits": 1, "name": "CC3I", "attr": "w0c", "type": 4},
+        {"bits": 1, "name": "CC4I", "attr": "w0c", "type": 4},
+        {"bits": 1, "name": "COMI", "attr": "w0c", "type": 4},
+        {"bits": 1, "name": "TI",   "attr": "w0c", "type": 4},
+        {"bits": 1, "name": "BI",   "attr": "w0c", "type": 4},
+        {"bits": 1, "name": "RES.",                  "type": 0},
+        {"bits": 1, "name": "CC1O", "attr": "w0c", "type": 4},
+        {"bits": 1, "name": "CC2O", "attr": "w0c", "type": 4},
+        {"bits": 1, "name": "CC3O", "attr": "w0c", "type": 4},
+        {"bits": 1, "name": "CC4O", "attr": "w0c", "type": 4},
+        {"bits": 3, "name": "RES.",                  "type": 0},
+        {"bits": 6, "name": "RES.",                  "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

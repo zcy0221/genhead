@@ -1,0 +1,25 @@
+{
+    "reg": [
+        {"bits": 1, "name": "CEN",  "attr": "rw", "type": 7},
+        {"bits": 1, "name": "UDIS", "attr": "rw", "type": 7},
+        {"bits": 1, "name": "URS",  "attr": "rw", "type": 7},
+        {"bits": 1, "name": "OPM",  "attr": "rw", "type": 7},
+        {"bits": 1, "name": "DIR",  "attr": "rw", "type": 7},
+        {"bits": 2, "name": "CMS",  "attr": "rw", "type": 7},
+        {"bits": 1, "name": "ARPEN","attr": "rw", "type": 7},
+        {"bits": 2, "name": "CKD",  "attr": "rw", "type": 7},
+        {"bits": 6, "name": "RES.",               "type": 0},
+        {"bits": 16, "name": "RES.",              "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "reg": [
+        {"bits": 2, "name": "SW",     "attr": "rw", "type": 7},
+        {"bits": 2, "name": "SWS",    "attr": "r" , "type": 5},
+        {"bits": 4, "name": "HPRE",   "attr": "rw", "type": 7},
+        {"bits": 3, "name": "PPRE1",  "attr": "rw", "type": 7},
+        {"bits": 3, "name": "PPRE2",  "attr": "rw", "type": 7},
+        {"bits": 2, "name": "RES.",                 "type": 0},
+        {"bits": 1, "name": "PLLSRC", "attr": "rw", "type": 7},
+        {"bits": 1, "name": "SRCDIV", "attr": "rw", "type": 7},
+        {"bits": 4, "name": "RES.",                 "type": 0},
+        {"bits": 2, "name": "USBPRE", "attr": "rw", "type": 7},
+        {"bits": 3, "name": "MCO",    "attr": "rw", "type": 7},
+        {"bits": 5, "name": "RES.",                 "type": 0}
+    ],                                              
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

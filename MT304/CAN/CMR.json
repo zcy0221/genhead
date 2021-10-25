@@ -1,0 +1,22 @@
+{
+    "reg": [
+        {"bits": 1,  "name": "TR",  "attr": "rw", "type": 5},
+        {"bits": 1,  "name": "AT",  "attr": "rw", "type": 5},
+        {"bits": 1,  "name": "RRB", "attr": "rw", "type": 5},
+        {"bits": 1,  "name": "CDO", "attr": "rw", "type": 5},
+        {"bits": 1,  "name": "SRR", "attr": "rw", "type": 5},
+        {"bits": 11, "name": "RES.",              "type": 0},
+        {"bits": 16, "name": "RES.",              "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

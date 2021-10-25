@@ -1,0 +1,30 @@
+{
+    "reg": [
+        {"bits": 1, "name": "PG",       "attr": "rw",       "type": 7},
+        {"bits": 1, "name": "PER",      "attr": "rw",       "type": 7},
+        {"bits": 1, "name": "MER",      "attr": "rw",       "type": 7},
+        {"bits": 1, "name": "RES.",     "attr": "",         "type": 0},
+        {"bits": 1, "name": "OPTPG",    "attr": "rw",       "type": 7},
+        {"bits": 1, "name": "OPTER",    "attr": "rw",       "type": 7},
+        {"bits": 1, "name": "STRT",     "attr": "rw",       "type": 7},
+        {"bits": 1, "name": "LOCK",     "attr": "rw",       "type": 7},
+        {"bits": 1, "name": "RES.",     "attr": "",         "type": 0},
+        {"bits": 1, "name": "OPTWRE",   "attr": "w0c",    "type": 4},
+        {"bits": 1, "name": "ERRIE",    "attr": "rw",       "type": 7},
+        {"bits": 1, "name": "RES.",     "attr": "",         "type": 0},
+        {"bits": 1, "name": "EOPIE",    "attr": "rw",       "type": 7},
+        {"bits": 3, "name": "RES.",     "attr": "",         "type": 0},
+        {"bits":16, "name": "RES.",     "attr": "",         "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

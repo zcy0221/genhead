@@ -1,0 +1,17 @@
+{
+    "reg": [
+        {"bits": 16, "name": "OPTKEY", "attr": "w",   "type": 6},
+        {"bits": 16, "name": "OPTKEY", "attr": "w",   "type": 6}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "reg": [
+        {"bits": 1, "name": "UG",   "attr": "w", "type": 6},
+        {"bits": 1, "name": "CC1G", "attr": "w", "type": 6},
+        {"bits": 1, "name": "CC2G", "attr": "w", "type": 6},
+        {"bits": 1, "name": "CC3G", "attr": "w", "type": 6},
+        {"bits": 1, "name": "CC4G", "attr": "w", "type": 6},
+        {"bits": 1, "name": "COMG", "attr": "w", "type": 6},
+        {"bits": 1, "name": "TG",   "attr": "w", "type": 6},
+        {"bits": 1, "name": "BG",   "attr": "w", "type": 6},
+        {"bits": 8, "name": "RES.", "type": 0},
+        {"bits": 16, "name": "RES.", "type": 0}
+
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}

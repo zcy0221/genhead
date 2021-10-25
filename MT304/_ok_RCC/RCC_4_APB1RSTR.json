@@ -1,0 +1,39 @@
+{
+    "reg": [
+        {"bits": 1, "name": "TIM2",  "attr": "rw", "type": 7},
+        {"bits": 1, "name": "TIM3",  "attr": "rw", "type": 7},
+        {"bits": 1, "name": "TIM4",  "attr": "rw", "type": 7},
+		{"bits": 8, "name": "RES.",                "type": 0},
+        {"bits": 1, "name": "WWDG",  "attr": "rw", "type": 7},
+		{"bits": 2, "name": "RES.",                "type": 0},
+        {"bits": 1, "name": "SPI2",  "attr": "rw", "type": 7},
+		{"bits": 1, "name": "RES.",                "type": 0},
+
+		{"bits": 1, "name": "RES.",                "type": 0},
+        {"bits": 1, "name": "UART2", "attr": "rw", "type": 7},
+        {"bits": 1, "name": "UART3", "attr": "rw", "type": 7},
+		{"bits": 2, "name": "RES.",                "type": 0},
+        {"bits": 1, "name": "I2C1",  "attr": "rw", "type": 7},
+        {"bits": 1, "name": "I2C2",  "attr": "rw", "type": 7},
+        {"bits": 1, "name": "USB",   "attr": "rw", "type": 7},
+        {"bits": 1, "name": "CRS",   "attr": "rw", "type": 7},
+        {"bits": 1, "name": "CAN",   "attr": "rw", "type": 7},
+		{"bits": 1, "name": "RES.",                "type": 0},
+        {"bits": 1, "name": "BKP",   "attr": "rw", "type": 7},
+        {"bits": 1, "name": "PWR",   "attr": "rw", "type": 7},
+        {"bits": 1, "name": "DAC",   "attr": "rw", "type": 7},
+        {"bits": 2, "name": "RES.",                "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}
+

@@ -1,0 +1,35 @@
+{
+    "reg": [
+        {"bits": 1,  "name": "TR0",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "TR1",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "TR2",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "TR3",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "TR4",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "TR5",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "TR6",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "TR7",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "TR8",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "TR9",  "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "TR10", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "TR11", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "TR12", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "TR13", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "TR14", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "TR15", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "TR16", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "TR17", "attr": "rw",  "type": 7},
+        {"bits": 1,  "name": "TR18", "attr": "rw",  "type": 7},
+        {"bits": 13, "name": "RES.",                "type": 0}
+    ],
+    "config":{
+        "vspace": 40,
+        "hspace": 500,
+        "lanes": 2,
+        "fontsize": 7,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+}
