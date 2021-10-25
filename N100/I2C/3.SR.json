@@ -1,0 +1,21 @@
+{
+    "reg": [
+        {"bits": 8, "name": "STA",      "attr": "r", "type": 5},
+        {"bits": 8, "name": "RES",  "attr": "",   "type": 0},
+        {"bits": 16, "name": "RES",  "attr": "",   "type": 0}
+
+
+    ],
+    "config":{
+        "vspace": 80,
+        "hspace": 800,
+        "lanes": 2,
+        "fontsize": 14,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+
+}

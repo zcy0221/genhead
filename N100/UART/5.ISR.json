@@ -1,0 +1,32 @@
+{
+    "reg": [
+        {"bits": 1, "name": "TXE",      "attr": "w1c", "type": 2},
+        {"bits": 1, "name": "TXC",      "attr": "w1c", "type": 2},
+        {"bits": 1, "name": "RXNE",     "attr": "w1c", "type": 2},
+        {"bits": 1, "name": "PARITY",   "attr": "w1c", "type": 2},
+        {"bits": 1, "name": "OVER",     "attr": "w1c", "type": 2},
+        {"bits": 1, "name": "FRAME",    "attr": "w1c", "type": 2},
+        {"bits": 1, "name": "BRK",      "attr": "w1c", "type": 2},
+        {"bits": 1, "name": "B9D",      "attr": "w1c", "type": 2},
+        {"bits": 1, "name": "SYNC",     "attr": "w1c", "type": 2},
+        {"bits": 1, "name": "STXE",     "attr": "r",   "type": 5},
+        {"bits": 1, "name": "SRXNE",    "attr": "r",   "type": 5},
+        {"bits": 1, "name": "BADD",     "attr": "r",   "type": 5},
+        {"bits": 4, "name": "RES",  "attr": "",   "type": 0},
+        {"bits": 16, "name": "RES",  "attr": "",   "type": 0}
+
+
+    ],
+    "config":{
+        "vspace": 80,
+        "hspace": 800,
+        "lanes": 2,
+        "fontsize": 14,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+
+}

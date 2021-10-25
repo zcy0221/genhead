@@ -1,0 +1,35 @@
+{
+    "reg": [
+        {"bits": 2, "name": "MODE",     "attr": "rw", "type": 7},
+        {"bits": 2, "name": "DFLEN",    "attr": "rw", "type": 7},
+        {"bits": 2, "name": "PMOD",     "attr": "rw", "type": 7},
+        {"bits": 1, "name": "STOP",     "attr": "rw", "type": 7},
+        {"bits": 1, "name": "SWAP",     "attr": "rw", "type": 7},
+        {"bits": 1, "name": "HDUP",     "attr": "rw", "type": 7},
+        {"bits": 1, "name": "CKO",      "attr": "rw", "type": 7},
+        {"bits": 1, "name": "ABR",      "attr": "rw", "type": 7},
+        {"bits": 1, "name": "RWU",      "attr": "rw", "type": 7},
+        {"bits": 1, "name": "WAKE",     "attr": "rw", "type": 7},
+        {"bits": 1, "name": "B9POL",    "attr": "rw", "type": 7},
+        {"bits": 1, "name": "NACK",     "attr": "rw", "type": 7},
+        {"bits": 1, "name": "DIREN",    "attr": "rw", "type": 7},
+        {"bits": 1, "name": "DIRPOL",   "attr": "rw", "type": 7},
+        {"bits": 2, "name": "BADD",     "attr": "rw", "type": 7},
+        {"bits": 2, "name": "IADD",     "attr": "rw", "type": 7},
+        {"bits": 2, "name": "DADD",     "attr": "rw", "type": 7},
+        {"bits": 1, "name": "RES",      "attr": "",   "type": 0},
+        {"bits": 8, "name": "GTIME",   "attr": "rw", "type": 7}
+    ],
+    "config":{
+        "vspace": 80,
+        "hspace": 800,
+        "lanes": 2,
+        "fontsize": 14,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+
+}

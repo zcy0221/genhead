@@ -1,0 +1,25 @@
+{
+    "reg": [
+        {"bits": 1, "name": "TXE",      "attr": "rw", "type": 7},
+        {"bits": 1, "name": "TXC",      "attr": "rw", "type": 7},
+        {"bits": 1, "name": "RXNE",     "attr": "rw", "type": 7},
+        {"bits": 1, "name": "OVER",     "attr": "rw", "type": 7},
+        {"bits": 1, "name": "TUDR",     "attr": "rw", "type": 7},
+        {"bits": 1, "name": "RMAH",     "attr": "rw", "type": 7},
+        {"bits": 10, "name": "RES",  "attr": "",   "type": 0},
+        {"bits": 16, "name": "RES",  "attr": "",   "type": 0}
+
+    ],
+    "config":{
+        "vspace": 80,
+        "hspace": 800,
+        "lanes": 2,
+        "fontsize": 14,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+
+}

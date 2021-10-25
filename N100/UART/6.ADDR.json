@@ -1,0 +1,20 @@
+{
+    "reg": [
+        {"bits": 8,  "name": "ADDR", "attr": "rw", "type": 7},
+        {"bits": 8,  "name": "MASK", "attr": "rw", "type": 7},
+        {"bits": 16, "name": "RES",  "attr": "",   "type": 0}
+
+    ],
+    "config":{
+        "vspace": 80,
+        "hspace": 800,
+        "lanes": 2,
+        "fontsize": 14,
+        "fontfamily": "Arial",
+        "bits": 32,
+        "bigendian": false,
+        "fontweight": "normal",
+        "compact": false
+    }
+
+}
