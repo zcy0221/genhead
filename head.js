@@ -48,7 +48,7 @@ function data(dir) {
                 bitMask16=bitTran.toString(16);
                 bitName = jInfo[i][m].name;
                 sum += bitMask10;
-                bitPosition = sum - bitMask10+1;
+                bitPosition = sum - bitMask10;
                 if (jInfo[i][m].name != "RES") {
                     head +=`//////////@brief ${RegisterName}_${bitName} Register Defintion\n`;
                     var head1 = `#define ${IPName}_${RegisterName}_${bitName}_Pos`;
